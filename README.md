@@ -30,3 +30,8 @@ Question-Answering has the following steps:
 ## 🧠 How to Extend to your documentation
 
 Coming soon.
+
+1. Pull html from documentation site
+2. Parse html with BeautifulSoup
+3. Split documents with LangChain's [TextSplitter](https://langchain.readthedocs.io/en/latest/modules/utils/combine_docs_examples/textsplitter.html)
+4. Create a vectorstore of embeddings, using LangChain's [vectorstore wrapper](https://langchain.readthedocs.io/en/latest/modules/utils/combine_docs_examples/v
